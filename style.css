@@ -1,0 +1,80 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto", sans-serif
+}
+
+.w3-container {
+    color: black;
+}
+
+
+.w3-container.dark, h2.dark, #fullPage.dark {
+    background: #262626;
+    color: #fff;
+    transition: 0.5s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button {
+  background-color: #ff008a;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.theme-btn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
+    border: 1px solid #000;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.theme-btn.active {
+    border-color: #fff
+}
+
+.theme-btn li {
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.theme-btn.active li {
+    transform: translateY(-30px);
+}
+
+.theme-btn li span {
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #262626;
+    background: #fff;
+}
+
+.theme-btn li span:nth-child(1) {
+    background: #262626;
+    color: #fff;
+}
